@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@100&family=Solway:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Merriweather&family=Roboto:wght@100&family=Solway:wght@800&display=swap");
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
 body {
   width: 1440px;
 }
@@ -32,13 +38,15 @@ body {
   width: 50px;
   height: 40px;
   /* padding: 16px 0px 0px 13px; */
-  margin: 18px 0px 0px 12px;
+  margin: 24px 0px 0px 18px;
 }
 .navigaton {
   width: 500px;
-  margin: 0 19px 0 0px;
-  /* margin: -48px 231px 0 0; */
+  padding: 28px;
+    margin-right: -37px;
 }
+  /* margin: -48px 231px 0 0; */
+
 
 .textcolor {
   margin-right: 24px;
@@ -96,7 +104,7 @@ body {
 li {
   margin-right: 6px;
 }
-.textalexa{
+.textalexa {
   width: 470px;
   height: 120px;
   font-family: "Inter", sans-serif;
@@ -104,27 +112,69 @@ li {
   font-size: 20px;
   margin: 140px 0 0 71px;
 }
-.taphere{
+.taphere {
   width: 220px;
   height: 55px;
-  background-color:#BDAE82;
-  margin: 17px 0 0 73px; 
-}
-.texthere{
- font-size: 20px;
+  background-color: #bdae82;
+  margin: 17px 0 0 73px;
+  font-size: 20px;
   font-family: "Inter", sans-serif;
   display: flex;
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-.textskills{
+/* .texthere {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.textskills {
   font-family: "Merriweather";
   font-size: 40px;
-  color: #BDAE82;
-  margin: 0;
-    /* padding: 107px 0 0px 659px; */
+  color: #bdae82;
+  margin: 0 24px 0 26px;
+  /* margin: 0; */
+  /* padding: 107px 0 0px 659px; */
 }
-.palka1{
-  width: 350px;
+.palka1 {
+  width: 278px;
+  height: 2px;
+  /* margin: 0 0 -69px 359px; */
+}
+.palka2 {
+  width: 278px;
+  height: 2px;
+  /* margin: 0 0 -68px 145px; */
 }
 
+
+.warapper_lines{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 114px 0 0 0;
+}
+.photography{
+  margin: 0 0 -112px 148px;
+}
+.Digitalphotography{
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: white;
+  width: 280px;
+  height: 40px;
+  margin: 166px 0 0 85px;
+}
+.High-qualityphotosinthestudioandonthenature{
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  color: white;
+  line-height: 36px;
+  text-align: center;
+  margin: 12px 0 0 -1079px;
+}
+.wrappervideo[
+  
+]
